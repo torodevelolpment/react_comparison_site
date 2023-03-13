@@ -23,7 +23,7 @@ const Header = () => {
         </div>
       </div>
       <div className="gpt__header-image">
-          <img src={ai} alt="Artificial Intelligence" />
+          <img src={ai} alt="Artificial Intelligence"/>
       </div>
     </div>
   )
@@ -31,4 +31,3 @@ const Header = () => {
 
 export default Header
 
-//preguntar chatgpt por un request por get o por post formdata.append
