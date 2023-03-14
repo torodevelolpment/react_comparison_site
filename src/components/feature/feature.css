@@ -1,0 +1,24 @@
+.gpt__features-container__feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.gpt__features-container__feature-title{
+    flex: 1;
+    max-width: 180px;
+    margin-right: 2rem;
+}
+
+.gpt__features-container__feature-title h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+}
+
+.gpt__features-container__feature-title
