@@ -12,8 +12,9 @@
     background: radial-gradient(circle at 3% 25%, rgba(44, 83, 100, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(15, 32, 39, 1) 100%);
 }
 
-.gpt__whatgpt-feature{
-    display: flex;
+.gpt__whatgpt-feature {
+   display: flex;
+   margin-top: 2rem;
 }
 
 .gpt__whatgpt-feature .gpt__whatgpt-features-container__feature{
@@ -29,7 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 4rem 0 2rem;
+    margin: 4rem 1rem 4rem;
 }
 
 .gpt__whatgpt-heading h1{
@@ -53,7 +54,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 2rem;
 }
 
 @media screen and (max-width: 650px) {

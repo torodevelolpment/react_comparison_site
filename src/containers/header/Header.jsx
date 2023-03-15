@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../Assets/people.png';
-import ai from '../../Assets/ai.png';
+import logotext from '../../Assets/logotext.png';
 
 const Header = () => {
   return (
@@ -10,9 +10,7 @@ const Header = () => {
         <h1 className="gradient__text">
           Compare the best tech sites tools with GPT-3 OpenAI
         </h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. 
-          Indulgence way everything joy alteration boisterous the attachment. 
-          Party we years to order allow asked of.</p>
+        <p>Our website offers a detailed comparison of tools for designers and developers, helping you choose the best option for your needs</p>
         <div className="gpt__header-content__input">
           <input type="search" placeholder="Start comparing tech tools"/>
           <button type="button">Get Started</button>
@@ -23,7 +21,7 @@ const Header = () => {
         </div>
       </div>
       <div className="gpt__header-image">
-          <img src={ai} alt="Artificial Intelligence"/>
+          <img src={logotext} alt="Artificial Intelligence"/>
       </div>
     </div>
   )
