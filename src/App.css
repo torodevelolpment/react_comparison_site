@@ -16,14 +16,12 @@ a{
 }
 
 .gradient__bg{
-    /* safari 5.1+,chrome 10+ */
-    background: -webkit-radial-gradient(circle at 3% 25%, rgba(44, 83, 100, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(15, 32, 39, 1) 100%);
-    /* opera 11.10+ */
-    background: -o-radial-gradient(circle at 3% 25%, rgba(44, 83, 100, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(15, 32, 39, 1) 100%);
-    /* ie 10+ */
-    background: -ms-radial-gradient(circle at 3% 25%, rgba(44, 83, 100, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(15, 32, 39, 1) 100%);
-    /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, rgba(44, 83, 100, 1) 0%, rgba(32, 58, 67, 1) 50%, rgba(15, 32, 39, 1) 100%);
+    background: #5C258D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4389A2, #5C258D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4389A2, #5C258D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .gradient__text{
@@ -34,7 +32,7 @@ a{
 }
 
 .section__padding{
-    padding: 4rem 6rem;
+    padding: 0rem 6rem 4rem 6rem;
 }
 
 .section__margin {

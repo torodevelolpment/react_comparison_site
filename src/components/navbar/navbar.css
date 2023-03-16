@@ -32,7 +32,7 @@
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     text-transform: capitalize;
     margin: 0 1rem;
@@ -50,6 +50,7 @@
     padding: 0.5rem 1rem;
     background: #ff4820;
     border-radius: 5px;
+    font-size: 18px;
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
