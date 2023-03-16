@@ -1,0 +1,9 @@
+.progressMainWrapper{
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
