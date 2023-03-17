@@ -1,9 +1,9 @@
 .gpt__features-container__feature{
-   width: 100%;
+   width: 50%;
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
-   flex-direction: row;
+   flex-direction: column;
    margin: 1rem;
 }
 
@@ -16,10 +16,12 @@
 .gpt__features-container__feature-title h1{
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: -0.04em;
+    margin-bottom: 1rem;
 }
+
 
 .gpt__features-container__feature-text{
     font-family: var(--font-family);
@@ -37,4 +39,17 @@
     background: var(--gradient-bar);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 550px) {
+    .gpt__features-container__feature-title h1{
+        
+    }
+    .gpt__features-container__feature-title p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .gpt__features-container__feature{
+        margin: 1rem 0;
+    }
 }
