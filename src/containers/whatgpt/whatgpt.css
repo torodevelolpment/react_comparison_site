@@ -105,5 +105,13 @@
     .gpt__whatgpt-heading p{
         margin-top: 2rem;
     }
+
+    .gpt__whatgpt-feature{
+        flex-direction: column;
+    }
+
+    .gpt__whatgpt-feature-img {
+        max-width: 200px;
+    }
     
 }
