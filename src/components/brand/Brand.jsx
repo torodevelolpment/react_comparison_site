@@ -1,6 +1,6 @@
 import React from 'react';
 import './brand.css';
-import { discord, instagram, linkedin, whatsapp, github } from './imports';
+import { discord, instagram, linkedin, whatsapp, github, skype } from './imports';
 
 
 const Brand = () => {
@@ -12,6 +12,7 @@ const Brand = () => {
         <a href="#linkedin"><img src={linkedin} alt="linkedin"/></a>
         <a href="#whatsapp"><img src={whatsapp} alt="whatsapp"/></a>
         <a href="#github"><img src={github} alt="github"/></a>
+        <a href="#skype"><img src={skype} alt="skype"/></a>
       </div>
     </div>
   )
