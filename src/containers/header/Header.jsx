@@ -8,17 +8,17 @@ const Header = () => {
     <div className="gpt__header section__padding" id="home">
       <div className="gpt__header-content">
         <h1 className="gradient__text">
-          Compare the best tech sites tools with GPT-3 OpenAI
+          Hello im Isaac Toro and this is my online portfolio
         </h1>
-        <p>Our website offers a detailed comparison of tools for designers and developers, helping you choose the best option for your needs</p>
-        <div className="gpt__header-content__input">
+        <p>Welcome to my online CV/Portfolio, this is an example of good practices and my basic knowledge using the REACT framework, programming languages such as JS, and styles and markup languages such as HTML & CSS. Here you'll find all my academic career, job experiences and skills.</p>
+        {/* <div className="gpt__header-content__input">
           <input type="search" placeholder="Start comparing tech tools"/>
           <button type="button">Get Started</button>
         </div>
         <div className="gpt__header-content__people">
           <img src={people} alt="people"/>
-          <p>1,600 creators & developers compared different tools in the last 24 hours</p>
-        </div>
+          <p>My friends are my best references</p>
+        </div> */}
       </div>
       <div className="gpt__header-image">
           <img src={logotext} alt="Artificial Intelligence"/>

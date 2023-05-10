@@ -29,9 +29,9 @@
 .gpt__navbar-links_container p,
 .gpt__navbar-sign p,
 .gpt__navbar-menu_container p {
-    color: #fff;
+    color: var(--gradient-text);
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 20px;
     text-transform: capitalize;
