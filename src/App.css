@@ -18,9 +18,9 @@ a{
 .gradient__bg{
     background: #5C258D;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4389A2, #5C258D);
+    background: -webkit-linear-gradient(to bottom, #757f9a, #d7dde8);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4389A2, #5C258D);
+    background: linear-gradient(to bottom, #757f9a, #d7dde8);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -30,6 +30,7 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .section__padding{
     padding: 0rem 6rem 4rem 6rem;
