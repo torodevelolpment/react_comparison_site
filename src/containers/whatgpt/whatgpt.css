@@ -1,13 +1,14 @@
 .gpt__whatgpt{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 0 2rem;
     background: inherit;
 }
   
 .gpt__whatgpt-feature {
    display: flex;
    margin-top: 2rem;
+   flex-direction: row-reverse;
 }
 
 .gpt__whatgpt-feature .gpt__whatgpt-features-container__feature{
