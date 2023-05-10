@@ -7,11 +7,11 @@ const Brand = () => {
   return (
     <div className="gpt__brand section__pading">
       <div>
-        <img src={discord} alt="discord"/>
-        <img src={instagram} alt="instagram"/>
-        <img src={linkedin} alt="linkedin"/>
-        <img src={whatsapp} alt="whatsapp"/>
-        <img src={github} alt="github"/>
+        <a href="#discord"><img src={discord} alt="discord"/></a>
+        <a href="#instagram"><img src={instagram} alt="instagram"/></a>
+        <a href="#linkedin"><img src={linkedin} alt="linkedin"/></a>
+        <a href="#whatsapp"><img src={whatsapp} alt="whatsapp"/></a>
+        <a href="#github"><img src={github} alt="github"/></a>
       </div>
     </div>
   )
