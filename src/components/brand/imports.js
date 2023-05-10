@@ -1,13 +1,13 @@
-import google from '../../Assets/google.png';
-import slack from '../../Assets/slack.png';
-import atlassian from '../../Assets/atlassian.png';
-import dropbox from '../../Assets/dropbox.png';
-import shopify from '../../Assets/shopify.png';
+import discord from '../../Assets/discord.png';
+import github from '../../Assets/github.png';
+import whatsapp from '../../Assets/whatsapp.png';
+import linkedin from '../../Assets/linkedin.png';
+import instagram from '../../Assets/instagram.png';
 
 export {
-    google,
-    atlassian,
-    slack,
-    shopify,
-    dropbox,
+    instagram,
+    github,
+    discord,
+    linkedin,
+    whatsapp,
 }

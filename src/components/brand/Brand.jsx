@@ -1,17 +1,17 @@
 import React from 'react';
 import './brand.css';
-import { google, slack, atlassian, dropbox, shopify } from './imports';
+import { discord, linkedin, github, instagram, whatsapp } from './imports';
 
 
 const Brand = () => {
   return (
     <div className="gpt__brand section__pading">
       <div>
-        <img src={google} alt="google"/>
-        <img src={slack} alt="slack"/>
-        <img src={atlassian} alt="atlassian"/>
-        <img src={dropbox} alt="dropbox"/>
-        <img src={shopify} alt="shopify"/>
+        <a href="#discord"><img src={discord} alt="discord"/></a>
+        <a href="#linkedin"><img src={linkedin} alt="linkedin"/></a>
+        <a href="#github"><img src={github} alt="github"/></a>
+        <a href="#instagram"><img src={instagram} alt="instagram"/></a>
+        <a href="#whatsapp"><img src={whatsapp} alt="whatsapp"/></a>
       </div>
     </div>
   )

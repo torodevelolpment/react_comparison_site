@@ -1,9 +1,9 @@
 .gpt__features-container__featuretitle {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     margin: 1rem;
 }
 .gpt__features-container__featuretitle-title h1 {
@@ -12,18 +12,31 @@
     font-size: 20px;
     line-height: 22px;
     letter-spacing: -0.04em;
+    
 }
 
 .gpt__features-container__featuretitle-title {
     flex: 1;
-    max-width: 180px;
     margin-right: 2rem;
+    color: #363e54;
+    font-weight: 600;
 }
 
 .gpt__features-container__featuretitle-text {
     font-family: var(--font-family);
     flex: 2;
     max-width: 660px;
+    color: #62697c;
+    font-weight: 600;
+}
+
+.gpt__whatgpt-feature-img{
+    display: flex;
+    width: 50%;
+}
+
+.gpt__whatgpt-feature-img img{
+    max-width: 500px;
 }
 
 @media screen and (max-width: 1900px) {

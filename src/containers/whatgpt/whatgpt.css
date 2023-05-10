@@ -1,18 +1,14 @@
 .gpt__whatgpt{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    background: #ad5389;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #5C258D, #ad5389);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #5C258D, #ad5389);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    padding: 0 2rem;
+    background: inherit;
 }
   
 .gpt__whatgpt-feature {
    display: flex;
    margin-top: 2rem;
+   flex-direction: row-reverse;
 }
 
 .gpt__whatgpt-feature .gpt__whatgpt-features-container__feature{
@@ -37,6 +33,7 @@
     font-size: 34px;
     line-height: 45px;
     max-width: 510px;
+    
 }
 
 .gpt__whatgpt-heading p{
