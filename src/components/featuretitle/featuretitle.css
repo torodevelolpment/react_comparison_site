@@ -70,8 +70,16 @@
 @media screen and (max-width: 500px) {
     .gpt__features-container__featuretitle{
         flex-direction: column;
+        width: 100%;
     }
     .gpt__features-container__featuretitle h1 {
         margin-bottom:1rem;
+    }
+
+    .gpt__whatgpt-feature-img {
+        width: 100%;
+    }
+    .gpt__whatgpt-feature-img img {
+        min-width: 200px;
     }
 }
