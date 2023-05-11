@@ -21,9 +21,9 @@
 .gpt__whatgpt-heading{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 4rem 4rem 4rem;
+    margin: 6rem 0;
 }
 
 .gpt__whatgpt-heading h1{
@@ -31,17 +31,6 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
-    max-width: 510px;
-    
-}
-
-.gpt__whatgpt-heading p{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-subtext);
-    cursor: pointer;
 }
 
 .gpt__whatgpt-container{
@@ -100,9 +89,6 @@
         flex-direction: column;
         justify-content: center;
         margin: 2rem 1rem 2rem 1rem;
-        }
-    .gpt__whatgpt-heading p{
-        margin-top: 2rem;
     }
 
     .gpt__whatgpt-feature{

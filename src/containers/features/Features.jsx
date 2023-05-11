@@ -20,7 +20,7 @@ const Features = () => {
       <div className="mycv__features-heading">
         <h1 className="gradient__text">
           Here's my Academic History</h1>
-        <p>Download my CV here!</p>
+        
       </div>
       <div className="mycv__features-container">
         {featuresData.map((item, index) => (

@@ -16,7 +16,6 @@ const Whatgpt = () => {
         <h1 className="gradient__text">
           "Luck is when opportunity meets preparation"
         </h1>
-        <p>Download my CV</p>
       </div>
       <div className="gpt__whatgpt-container">
         <Feature title="Education" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "/>

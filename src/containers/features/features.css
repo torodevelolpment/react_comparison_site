@@ -24,16 +24,6 @@
     line-height: 45px;
 }
 
-.mycv__features-heading p{
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--color-subtext);
-    margin-top: 2rem;
-}
-
 .mycv__features-container{
     flex: 1.5;
     display: flex;
