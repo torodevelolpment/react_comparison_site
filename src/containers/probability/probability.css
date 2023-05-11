@@ -1,19 +1,18 @@
 .mycv__experience{
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 1rem;
 }
 
 .mycv__experience-img{
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
 
 }
 
 .mycv__experience-img img {
-    width: 100%;
+    max-width:350px;
     height: 100%;
 }
 

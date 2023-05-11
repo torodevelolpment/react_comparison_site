@@ -17,11 +17,11 @@ const Whatgpt = () => {
           "Luck is when opportunity meets preparation"
         </h1>
       </div>
-      <div className="gpt__whatgpt-container">
+      {/* <div className="gpt__whatgpt-container">
         <Feature title="Education" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "/>
         <Feature title="Experience" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"/>
         <Feature title="Skills" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments"/>
-      </div>
+      </div> */}
     </div>
   )
 }
