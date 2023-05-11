@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 5rem;
 }
 
 .mycv__features-heading{
