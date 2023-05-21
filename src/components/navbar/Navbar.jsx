@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 //react icons
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../Assets/logo.png'
-//navbar menu import function
+import logo from '../../Assets/logo.png';
 import './navbar.css';
+import { Link } from "react-router-dom";
+
 const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
-  <p><a href="#suagatam">Education</a></p>
-  <p><a href="experience">Experience</a></p>
-  <p><a href="skills">Skills</a></p>
-  <p><a href="#hobbies">Hobbies</a></p>
+  <p><a href="#About">About Us</a></p>
+  <p><Link to="/products">Our Products</Link></p>
+  <p><a href="skills">Contact Us</a></p>
   </>
 )
 
@@ -30,7 +30,6 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt__navbar-sign">
-          <p>Sign in</p>
           <button type="button">Sign up</button>
       </div>
       <div className="gpt__navbar-menu">

@@ -1,14 +1,14 @@
 import React from 'react';
 import './header.css';
 import people from '../../Assets/people.png';
-import logotext from '../../Assets/logotext.png';
+import logo from '../../Assets/logo.png';
 
 const Header = () => {
   return (
     <div className="gpt__header section__padding" id="home">
       <div className="gpt__header-content">
         <h1 className="gradient__text">
-          Hello im Isaac Toro and this is my online portfolio
+          Valle Encantado Produce S.A.C
         </h1>
         <p>Welcome to my online CV/Portfolio, this is an example of good practices and my basic knowledge using the REACT framework, programming languages such as JS, and styles and markup languages such as HTML & CSS. Here you'll find all my academic career, job experiences and skills.</p>
         {/* <div className="gpt__header-content__input">
@@ -21,7 +21,7 @@ const Header = () => {
         </div> */}
       </div>
       <div className="gpt__header-image">
-          <img src={logotext} alt="Artificial Intelligence"/>
+          <img src={logo} alt="Artificial Intelligence"/>
       </div>
     </div>
   )
