@@ -9,52 +9,10 @@
     background: var(--color-footer);
 }
 
-.mycv__cta-content h3 {
+.mycv__cta-content {
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 34px;
     line-height: 45px;
 }
 
-.mycv__cta-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2rem;
-}
-
-.mycv__cta-btn button{
-    background: #d7dde8;
-    border-radius: 40px;
-    font-family: var(--font-family);
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 5px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    min-width: 150px;
-}
-
-@media screen and (max-width: 650px) {
-    .mycv__cta{
-        flex-direction: column;
-    }
-    .mycv__cta-btn{
-        margin: 2rem 0 0;
-    }
-}
-@media screen and (max-width: 550px) {
-    .mycv__cta{
-        margin: 4rem 2rem;
-    }
-    .mycv__cta-content h3{
-        font-size: 18px;
-        line-height: 32px;
-    }
-    .mycv__cta-btn button{
-        font-size: 14px;
-        line-height: 28px;
-    }
-}
