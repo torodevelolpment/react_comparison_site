@@ -1,6 +1,6 @@
 import React from 'react';
 import './whatgpt.css';
-import { Heroproduct, Feature, Featuretitle } from '../../components';
+import { Heroproduct, Feature, Featuretitle, Carousel } from '../../components';
 import logotext from '../../Assets/logotext.png';
 
 
@@ -8,7 +8,8 @@ const Whatgpt = () => {
   return (
     <div className="gpt__whatgpt section__margin" id="whatgpt">
       <div className="gpt__whatgpt-feature">
-        <Heroproduct/>
+        {/* <Heroproduct/> */}
+        <Carousel/>
       </div>
       <div className="gpt__whatgpt-heading">
         <h1 className="gradient__text">

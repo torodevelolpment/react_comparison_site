@@ -8,7 +8,7 @@ function Productspage() {
     <div className="mycv__navbar">
       <Navbar />
     </div>
-    <div className="productmod__tailwind-container">
+    <div className="productmod__tailwind-container section__padding">
       <div className="productmod__tailwind-cards">
         <Productsmod/>
       </div>

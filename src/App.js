@@ -12,7 +12,7 @@ const App = () => {
         <Navbar />
         <Header />
         </div>
-        <Brand/>
+        {/* <Brand/> */}
         <Whatgpt/>
         <Features/>
         <Probability/>

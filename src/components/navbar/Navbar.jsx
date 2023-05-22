@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 //react icons
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../Assets/logo.png';
+import logoiso from '../../Assets/logoiso.png';
 import './navbar.css';
 import { Link } from "react-router-dom";
 
@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className="gpt__navbar">
       <div className="gpt__navbar-links">
         <div className="gpt__navbar-links_logo">
-          <img src={logo} alt="" />
+          <img src={logoiso} alt="" />
         </div>
         <div className="gpt__navbar-links_container">
           <Menu />
