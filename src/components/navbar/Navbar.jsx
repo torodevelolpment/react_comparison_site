@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 const Menu = () => (
   <>
   <p><Link to="/home">Home</Link></p>
-  <p><a href="#About">About Us</a></p>
+  <p><Link to="/about">About Us</Link></p>
   <p><Link to="/products">Our Products</Link></p>
-  <p><a href="skills">Contact Us</a></p>
+  <p><Link to="/contact">Contact</Link></p>
   </>
 )
 
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt__navbar-sign">
-          <button type="button">Sign up</button>
+          <button type="button">Contact Us</button>
       </div>
       <div className="gpt__navbar-menu">
         {toggleMenu
@@ -44,7 +44,7 @@ const Navbar = () => {
               <Menu />
               <div className="gpt__navbar-menu_container-links-sign">
                 <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <button type="button">Contact Us</button>
               </div>
             </div>
           </div>
