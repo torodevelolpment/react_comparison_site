@@ -1,6 +1,6 @@
 import React from 'react';
 import './productspage.css';
-import { Navbar, Productsmod } from '../../components';
+import { Navbar, Productsmod, Productspecs } from '../../components';
 
 function Productspage() {
   return (
@@ -9,7 +9,12 @@ function Productspage() {
       <Navbar />
     </div>
     <div className="productmod__tailwind-container">
-      <Productsmod/>
+      <div className="productmod__tailwind-cards">
+        <Productsmod/>
+      </div>
+      <div className="productmod__tailwind-specs">
+        <Productspecs/>
+      </div>
     </div>
     </>
   )

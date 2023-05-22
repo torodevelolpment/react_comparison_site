@@ -5,4 +5,5 @@ export { default as Feature } from './feature/Feature';
 export { default as Featuretitle } from './featuretitle/Featuretitle';
 export { default as Navbar } from './navbar/Navbar';
 export { default as Productsmod } from './Productsmod/productsmod';
-export { default as Heroproduct } from './heroproduct/Heroproductos'
+export { default as Heroproduct } from './heroproduct/Heroproductos';
+export { default as Productspecs } from './productspecs/productspecs';
