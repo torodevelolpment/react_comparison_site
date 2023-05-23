@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 //react icons
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../Assets/logo.png'
-//navbar menu import function
+import logoiso from '../../Assets/logoiso.png';
 import './navbar.css';
+import { Link } from "react-router-dom";
+
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#suagatam">Education</a></p>
-  <p><a href="experience">Experience</a></p>
-  <p><a href="skills">Skills</a></p>
-  <p><a href="#hobbies">Hobbies</a></p>
+  <p><Link to="/home">Home</Link></p>
+  <p><Link to="/about">About Us</Link></p>
+  <p><Link to="/products">Our Products</Link></p>
+  <p><Link to="/contact">Contact</Link></p>
   </>
 )
 
@@ -23,20 +23,19 @@ const Navbar = () => {
     <div className="gpt__navbar">
       <div className="gpt__navbar-links">
         <div className="gpt__navbar-links_logo">
-          <img src={logo} alt="" />
+          <img src={logoiso} alt="" />
         </div>
         <div className="gpt__navbar-links_container">
           <Menu />
         </div>
       </div>
       <div className="gpt__navbar-sign">
-          <p>Sign in</p>
-          <button type="button">Sign up</button>
+          <button type="button">Contact Us</button>
       </div>
       <div className="gpt__navbar-menu">
         {toggleMenu
-          ? <RiCloseLine color="#FFF" size={27} onClick={()=> setToggleMenu(false)} />
-          : <RiMenu3Line color="#FFF" size={27} onClick={()=> setToggleMenu(true)} />
+          ? <RiCloseLine color="#000000" size={27} onClick={()=> setToggleMenu(false)} />
+          : <RiMenu3Line color="#000000" size={27} onClick={()=> setToggleMenu(true)} />
         
         }
         {toggleMenu &&(
@@ -45,7 +44,7 @@ const Navbar = () => {
               <Menu />
               <div className="gpt__navbar-menu_container-links-sign">
                 <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <button type="button">Contact Us</button>
               </div>
             </div>
           </div>

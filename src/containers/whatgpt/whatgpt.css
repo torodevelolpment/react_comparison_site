@@ -3,12 +3,6 @@
     flex-direction: column;
     background: inherit;
 }
-  
-.gpt__whatgpt-feature {
-   display: flex;
-   margin-top: 2rem;
-   flex-direction: row-reverse;
-}
 
 .gpt__whatgpt-feature .gpt__whatgpt-features-container__feature{
     margin: 0;

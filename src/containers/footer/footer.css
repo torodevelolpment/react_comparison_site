@@ -1,0 +1,30 @@
+.section__footer{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background: var(--color-blog);
+}
+
+.section__footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.section__footer-links div{
+    margin: 1rem;
+}
+
+.section__footer-links_logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.section__footer-links_logo img{
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
