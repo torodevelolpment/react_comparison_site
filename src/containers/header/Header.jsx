@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import people from '../../Assets/people.png';
-import logo from '../../Assets/vallencantado1.png';
+import logotext from '../../Assets/vallencantado1.png';
 
 const Header = () => {
   return (
