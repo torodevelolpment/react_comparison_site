@@ -5,6 +5,8 @@
     padding: 2rem 6rem;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
+    position: relative; 
+    z-index: 1  ;
 }
 
 .gpt__navbar-links{
@@ -67,25 +69,21 @@
     position: relative;
  }
 
-/*.gpt__navbar_menu svg{
-    cursor: pointer;
-}*/ 
-
 .gpt__navbar-menu_container{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: var(--color-footer);
+    background: var(--color-bg);
     padding: 2rem;
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 0;
     margin-top: 20px;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgb(0,0,0,0,2);
+    z-index: 1;
 }
 
 .gpt__navbar-menu_container p{
@@ -99,6 +97,7 @@
 @media screen and (max-width: 1050px) {
     .gpt__navbar-links_container {
         display: none;
+        z-index: 1;
     }
 
     .gpt__navbar-menu {
@@ -121,7 +120,8 @@
         display: none;
     }
     .gpt__navbar-menu_container{
-        top: 20px;
+        top: 50px;
+        z-index: 1;
     }
     .gpt__navbar-menu_container-links-sign{
         display: block;    
