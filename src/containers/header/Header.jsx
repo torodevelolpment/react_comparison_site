@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="gpt__header section__padding" id="home">
       <div className="gpt__header-content">
-        <h1 className="gradient__text">
+        <h1>
           Valle Encantado Produce
         </h1>
         <p>Welcome to my online CV/Portfolio, this is an example of good practices and my basic knowledge using the REACT framework, programming languages such as JS, and styles and markup languages such as HTML & CSS. Here you'll find all my academic career, job experiences and skills.</p>

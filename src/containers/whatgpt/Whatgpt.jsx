@@ -6,7 +6,7 @@ import logotext from '../../Assets/logotext.png';
 
 const Whatgpt = () => {
   return (
-    <div className="gpt__whatgpt section__margin" id="whatgpt">
+    <div className="gpt__whatgpt" id="whatgpt">
       <div className="gpt__whatgpt-feature">
         {/* <Heroproduct/> */}
         <Carousel/>
