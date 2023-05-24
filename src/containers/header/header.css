@@ -1,8 +1,6 @@
 .gpt__header{
     display: flex;
     flex-direction: row;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
 }
 
 .gpt__header-content{
