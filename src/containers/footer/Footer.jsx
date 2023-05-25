@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from '../../Assets/logoiso.png'
-import './footer.css'
 
 const Footer = () => {
   return (
-   <footer className="footer p-10 bg-base-200 text-base-content gap-x-16">
+   <footer className="footer bg-base-200 text-base-content gap-x-16 section__padding">
   <div>
     <img src={logo} alt="logoisofooter" className="max-w-10" />
     <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
