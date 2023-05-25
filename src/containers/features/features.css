@@ -8,11 +8,10 @@
 .mycv__features-heading{
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
-    margin-right: 5rem;
 }
 
 .mycv__features-heading h1{
@@ -24,9 +23,9 @@
 }
 
 .mycv__features-container{
-    flex: 1.5;
+    flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: row;
 }

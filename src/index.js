@@ -8,7 +8,7 @@ import Aboutpage from './pages/aboutpage/aboutpage';
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <App/>,
   },
    {

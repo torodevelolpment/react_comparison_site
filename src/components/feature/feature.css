@@ -1,15 +1,13 @@
 .gpt__features-container__feature{
-   width: 50%;
+   width: 90%;
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
    flex-direction: column;
-   margin: 1rem;
 }
 
 .gpt__features-container__feature-title{
-    flex: 1;
-    max-width: 210px;
+   
     margin-right: 2rem;
 }
 
@@ -27,6 +25,7 @@
 .gpt__features-container__feature-text{
     font-family: var(--font-family);
     flex: 2;
+    color: black;
     
 }
 

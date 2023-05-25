@@ -5,12 +5,8 @@ import { Feature } from '../../components';
 
 const featuresData = [
   {
-    title: 'International Studies',
-    text: 'Universidad Santa María. Caracas, Venezuela.'
-  },
-  {
-    title: 'Master en Dirección de Marketing, Branding, Entorno Digital y Sostenibilidad',
-    text: 'Universitat de Barcelona. Barcelona, España.'
+    title: 'From the ground to your table',
+    text: 'From Valle Encantado Produce we want to contribute to the development of a modern, fair and sustainable agriculture that adds value to the result of the hard work of small, medium and large producers; in addition to being an inspiration for the new leaders of agriculture through an ambitious, responsible and respectful business model with the earth.'
   },
 ] 
 
@@ -19,7 +15,7 @@ const Features = () => {
     <div className="mycv__features section__padding" id="suagatam">
       <div className="mycv__features-heading">
         <h1 className="gradient__text">
-          Here's my Academic History</h1>
+          Our Commitment with you</h1>
         
       </div>
       <div className="mycv__features-container">
