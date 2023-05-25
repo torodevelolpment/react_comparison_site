@@ -1,11 +1,11 @@
 import React from 'react';
 import './whatgpt.css';
 import { Carousel, Feature } from '../../components';
-import logotext from '../../Assets/logotext.png';
+
 
 const featuresDataSection = [
   {
-    title: 'From the ground to your table',
+    title: 'Our Sustainable Values',
   },
 ] 
 
