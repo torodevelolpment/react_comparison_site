@@ -17,7 +17,6 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: -0.04em;
-    margin-bottom: 1rem;
     color: var(--color-subtitle);
 }
 
@@ -50,6 +49,6 @@
         line-height: 20px;
     }
     .gpt__features-container__feature{
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 }
